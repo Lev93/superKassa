@@ -1,0 +1,35 @@
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__button {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.app__button--off {
+    background-color: red;
+}
+
+.app__button--off:hover {
+    background-color: lightsalmon;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.app__button--on {
+    background-color: green;
+}
+
+.app__button--on:hover {
+    background-color: lightgreen;
+    transition: background-color ease-in-out 0.5s;
+}
